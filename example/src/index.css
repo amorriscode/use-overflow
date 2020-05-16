@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: #1f1837;
+  color: white;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.horizontal-overflow-container {
+  width: 50%;
+  position: relative;
+  margin-bottom: 2rem;
+  padding: 2rem;
+  border: 2px solid #e200b9;
+}
+
+.horizontal-overflow-content {
+  width: 100%;
+  padding: 20px 0px;
+  overflow-x: scroll;
+  white-space: nowrap;
+}
+
+.horizontal-gradient-left {
+  pointer-events: none;
+  position: absolute;
+  height: 100%;
+  width: 25%;
+  top: 0;
+  left: 0;
+  background: linear-gradient(270deg, rgba(255,255,255,0) 0%, rgba(226,0,185,1) 100%);
+}
+
+.horizontal-gradient-right {
+  pointer-events: none;
+  position: absolute;
+  height: 100%;
+  width: 25%;
+  top: 0;
+  right: 0;
+  background: linear-gradient(270deg, rgba(226,0,185,1) 0%, rgba(255,255,255,0) 100%);
+}
+
+.vertical-overflow-container {
+  position: relative;
+  height: 50%;
+  width: 50%;
+  padding: 2rem;
+  border: 2px solid #e200b9;
+}
+
+.vertical-overflow-content {
+  height: 100%;
+  width: 100%;
+  overflow-y: scroll;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.vertical-gradient-top {
+  pointer-events: none;
+  position: absolute;
+  height: 25%;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(226,0,185,1) 100%);
+}
+
+.vertical-gradient-bottom {
+  pointer-events: none;
+  position: absolute;
+  height: 25%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(0deg, rgba(226,0,185,1) 0%, rgba(255,255,255,0) 100%);
+}
