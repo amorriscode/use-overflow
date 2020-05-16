@@ -14,10 +14,12 @@ yarn add use-overflow
 
 ## Usage
 
+[Check out the live example](https://amorriscode.github.io/use-overflow/).
+
 ```tsx
 import * as React from 'react'
 
-import { useMyHook } from 'use-overflow'
+import { useOverflow } from 'use-overflow'
 
 const Example = () => {
   const horizonstalRef = React.useRef(null);
