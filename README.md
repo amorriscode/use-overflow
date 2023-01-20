@@ -22,8 +22,8 @@ import * as React from 'react'
 import { useOverflow } from 'use-overflow'
 
 const Example = () => {
-  const horizonstalRef = React.useRef(null);
-  const { refXOverflowing, refXScrollBegin, refXScrollEnd } = useOverflow(horizonstalRef);
+  const horizontalRef = React.useRef(null);
+  const { refXOverflowing, refXScrollBegin, refXScrollEnd } = useOverflow(horizontalRef);
 
   const verticalRef = React.useRef(null);
   const { refYOverflowing, refYScrollBegin, refYScrollEnd } = useOverflow(verticalRef);
