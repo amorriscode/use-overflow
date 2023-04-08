@@ -1,6 +1,6 @@
 {
   "name": "use-overflow",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "A React Hook that allows you to detect X and Y overflow",
   "author": "Anthony Morris <amorriscode@gmail.com>",
   "license": "MIT",
